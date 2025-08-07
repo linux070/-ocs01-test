@@ -25,10 +25,11 @@ cp EI/exec_interface.json .
 ```
 
 **step 4**
- hover your mouse to the main folder.
- right click and create a new file.
- name it "wallet.json" and paste this .
 
+-   hover your mouse to the main folder.
+-   right click and create a new file.
+-    name it "wallet.json" and paste this.
+ 
 ```bash
 {
 "priv": "your octra private key",
@@ -38,9 +39,10 @@ cp EI/exec_interface.json .
 ```
 
 **step 5**
-back to the terminal, type in "nano wallet.json"
-edit it to your respective details.
-then Ctrl + O to save, press Enter, then Ctrl X.
+
+-   back to the terminal, type in "nano wallet.json".
+-   edit it to your respective details.
+-   then Ctrl + O to save, press Enter, then Ctrl X.
 
 **step 6**
 
@@ -49,5 +51,7 @@ then Ctrl + O to save, press Enter, then Ctrl X.
 ```
 
 **step 7**
-insert "3" to claim your test token, then you can proceed to play w any number of your choice.
+
+-  insert "3" to claim your test token.
+-  you can then proceed to play w any number of your choice.
 
