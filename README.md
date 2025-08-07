@@ -6,14 +6,21 @@
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env ``` 
+source $HOME/.cargo/env ```
 
-
+``` bash 
 ## step 2:
 ``` 
 git clone https://github.com/octra-labs/ocs01-test.git
 cd ocs01-test
 cargo build --release
+
+## step 3 :
+``` bash
+ # copy contract interface
+```  cp EI/exec_interface.json .
+
+
 
 
 step 3 :
