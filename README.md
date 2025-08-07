@@ -20,7 +20,7 @@ cargo build --release
 **step 3**
 ```bash
  # copy contract interface
-cp EI/exec_interface.json .**
+cp EI/exec_interface.json .
 
 ```
 
