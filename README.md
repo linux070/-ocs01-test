@@ -26,9 +26,9 @@ This guide walks you through setting up and running the OCS01 test on GitHub Cod
 
 ## ✅ Step 1: Install Rust
 
-bash
+`bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env
+source $HOME/.cargo/env `
 
 
 ✅ Step 2: Clone & Build the Project
