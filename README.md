@@ -3,17 +3,21 @@
  # just testing out the functionalities of octra!
 
 ## step 1:
-
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env ```
+source $HOME/.cargo/env 
+
+
+## step 2:
+```bash
+git clone https://github.com/octra-labs/ocs01-test.git
+cd ocs01-test
+cargo build --release
 
 ``` bash 
 ## step 2:
 ``` 
-git clone https://github.com/octra-labs/ocs01-test.git
-cd ocs01-test
-cargo build --release
+
 
 ## step 3 :
 ``` bash
