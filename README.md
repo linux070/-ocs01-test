@@ -8,6 +8,7 @@
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 
+
 ## step 2:
 ``` 
 git clone https://github.com/octra-labs/ocs01-test.git
@@ -15,22 +16,9 @@ cd ocs01-test
 cargo build --release
 
 
-
-## step 2 :
-```bash
-git clone https://github.com/octra-labs/ocs01-test.git
-cd ocs01-test
-cargo build --release
-
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env
-## step 1 :
-
-
-
-```step 3 : # copy contract interface
-cp EI/exec_interface.json .
+step 3 :
+```  # copy contract interface
+```  cp EI/exec_interface.json .
 
 
 ```step 4 :hover your mouse to the main folder.
