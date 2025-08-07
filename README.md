@@ -1,8 +1,7 @@
 ![octra!!!!!](https://github.com/user-attachments/assets/2a138e98-cf87-40ed-b64f-902876dc0b17)
 
  # octra ocs-01 test setup guide.
- # just testing out the functionalities of octra!
-
+ 
 **step 1 :install rust**
 
 ```bash
