@@ -10,6 +10,7 @@ This guide walks you through installing Rust and building the project from sourc
 
 ## Step 1: Install Rust (if not installed)
 
+
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
