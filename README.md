@@ -2,53 +2,24 @@
  # -ocs01-test
  # just testing out the functionalities of octra!
 
-## step 1:
+# Installation & Setup Guide
+
+This guide walks you through installing Rust and building the project from source.
+
+---
+
+## Step 1: Install Rust (if not installed)
+
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-source $HOME/.cargo/env 
+source $HOME/.cargo/env
 
 
-## step 2:
-```bash
+Step 2: Clone and Build from Source
 git clone https://github.com/octra-labs/ocs01-test.git
 cd ocs01-test
 cargo build --release
 
-``` bash 
-## step 2:
-``` 
-
-
-## step 3 :
-``` bash
- # copy contract interface
-```  cp EI/exec_interface.json .
-
-
-
-
-step 3 :
-```  # copy contract interface
-```  cp EI/exec_interface.json .
-
-
-```step 4 :hover your mouse to the main folder.
-> right click and create a new file.
-> name it **"wallet.json"** and paste this .
-
-
- ** {
-    "priv": "your octra private key (the one w B64)",
-    "addr": "your octra address",
-    "rpc": "https://octra.network"
-    } **
-
-```step 5 :go back to your terminal, type in **"nano wallet.json"**
-> edit it to your respective details.
-> then Ctrl + O to save, press Enter, then Ctrl X.
-
-```step 6 : ./target/release/ocs01-test
-
-```step 7 : insert **"3"** to claim your test token, then you can proceed to play w any number of your choice.
-
-
+Step 3: Setup Contract Interface
+# Copy contract interface
+cp EI/exec_interface.json .
